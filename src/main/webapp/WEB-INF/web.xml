@@ -26,6 +26,28 @@
     <servlet-class>com.perepelitsya.ServletResponse</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>PassingParametersUsingGetMethodDemo</servlet-name>
+    <servlet-class>com.perepelitsya.PassingParametersUsingGetMethodDemo</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+    <servlet-class>com.perepelitsya.PassingParametersUsingPostMethodDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+    <url-pattern>/PassingParametersUsingPostMethodDemo</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PassingParametersUsingGetMethodDemo</servlet-name>
+    <url-pattern>/PassingParametersUsingGetMethodDemo</url-pattern>
+  </servlet-mapping>
+
+
+
   <servlet-mapping>
     <servlet-name>ServletResponse</servlet-name>
     <url-pattern>/ServletResponse</url-pattern>

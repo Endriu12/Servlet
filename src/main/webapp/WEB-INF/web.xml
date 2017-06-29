@@ -21,6 +21,16 @@
     <servlet-class>com.perepelitsya.ServletRequest</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>ServletResponse</servlet-name>
+    <servlet-class>com.perepelitsya.ServletResponse</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ServletResponse</servlet-name>
+    <url-pattern>/ServletResponse</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>ServletRequest</servlet-name>
     <url-pattern>/ServletRequest</url-pattern>

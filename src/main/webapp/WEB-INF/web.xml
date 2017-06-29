@@ -11,6 +11,16 @@
   <servlet-class>com.perepelitsya.SimpleServlet</servlet-class>
 </servlet>
 
+  <servlet>
+    <servlet-name>StatusCode</servlet-name>
+    <servlet-class>com.perepelitsya.StatusCode</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StatusCode</servlet-name>
+    <url-pattern>/StatusCode</url-pattern>
+  </servlet-mapping>
+
 <servlet-mapping>
   <servlet-name>SimpleServlet</servlet-name>
   <url-pattern>/SimpleServlet</url-pattern>

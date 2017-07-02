@@ -24,7 +24,7 @@ public class PageVisitsCounter extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         increaseAmountOfVisits();
-        
+
         response.setContentType("text/html");
 
         String docType = "<!DOCTYPE html>";

@@ -95,6 +95,17 @@
 
 
     <servlet>
+        <servlet-name>LocaleServlets</servlet-name>
+        <servlet-class>com.perepelitsya.LocaleServlets</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LocaleServlets</servlet-name>
+        <url-pattern>/LocaleServlets</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
         <servlet-name>PageVisitsCounter</servlet-name>
         <servlet-class>com.perepelitsya.PageVisitsCounter</servlet-class>
     </servlet>

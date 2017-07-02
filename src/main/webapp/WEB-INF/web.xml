@@ -58,6 +58,28 @@
         <servlet-class>com.perepelitsya.SessionTracking</servlet-class>
     </servlet>
 
+
+
+
+
+
+
+
+    <servlet>
+        <servlet-name>CookieServlets</servlet-name>
+        <servlet-class>com.perepelitsya.CookieServlets</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CookieServlets</servlet-name>
+        <url-pattern>/CookieServlets</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
     <servlet-mapping>
         <servlet-name>SessionTracking</servlet-name>
         <url-pattern>/SessionTracking</url-pattern>

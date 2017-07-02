@@ -6,6 +6,17 @@
 
     <display-name>Servlets Tutorial</display-name>
 
+
+    <filter>
+        <filter-name>FilterServlets</filter-name>
+        <filter-class>com.perepelitsya.FilterServlets</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FilterServlets</filter-name>
+        <url-pattern>/FilterServlets</url-pattern>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>SimpleServlet</servlet-name>
         <servlet-class>com.perepelitsya.SimpleServlet</servlet-class>

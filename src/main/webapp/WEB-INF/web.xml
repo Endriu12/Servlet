@@ -76,6 +76,25 @@
         <servlet-class>com.perepelitsya.DataBase</servlet-class>
     </servlet>
 
+
+
+
+    <servlet>
+        <servlet-name>DateTime</servlet-name>
+        <servlet-class>com.perepelitsya.DateTime</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DateTime</servlet-name>
+        <url-pattern>/DateTime</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
     <servlet-mapping>
         <servlet-name>DataBase</servlet-name>
         <url-pattern>/DataBase</url-pattern>

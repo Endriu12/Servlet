@@ -59,12 +59,6 @@
     </servlet>
 
 
-
-
-
-
-
-
     <servlet>
         <servlet-name>CookieServlets</servlet-name>
         <servlet-class>com.perepelitsya.CookieServlets</servlet-class>
@@ -75,8 +69,6 @@
         <servlet-name>DataBase</servlet-name>
         <servlet-class>com.perepelitsya.DataBase</servlet-class>
     </servlet>
-
-
 
 
     <servlet>
@@ -96,15 +88,21 @@
     </servlet-mapping>
 
 
+    <servlet>
+        <servlet-name>RedirectAuto</servlet-name>
+        <servlet-class>com.perepelitsya.RedirectAuto</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RedirectAuto</servlet-name>
+        <url-pattern>/RedirectAuto</url-pattern>
+    </servlet-mapping>
+
+
     <servlet-mapping>
         <servlet-name>DateTime</servlet-name>
         <url-pattern>/DateTime</url-pattern>
     </servlet-mapping>
-
-
-
-
-
 
 
     <servlet-mapping>
@@ -117,10 +115,6 @@
         <servlet-name>CookieServlets</servlet-name>
         <url-pattern>/CookieServlets</url-pattern>
     </servlet-mapping>
-
-
-
-
 
 
     <servlet-mapping>

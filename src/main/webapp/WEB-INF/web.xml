@@ -93,6 +93,18 @@
         <servlet-class>com.perepelitsya.RedirectAuto</servlet-class>
     </servlet>
 
+
+    <servlet>
+        <servlet-name>PageVisitsCounter</servlet-name>
+        <servlet-class>com.perepelitsya.PageVisitsCounter</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PageVisitsCounter</servlet-name>
+        <url-pattern>/PageVisitsCounter</url-pattern>
+    </servlet-mapping>
+
+
     <servlet-mapping>
         <servlet-name>RedirectAuto</servlet-name>
         <url-pattern>/RedirectAuto</url-pattern>

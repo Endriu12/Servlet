@@ -53,6 +53,16 @@
         <servlet-class>com.perepelitsya.ErrorServlets</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>SessionTracking</servlet-name>
+        <servlet-class>com.perepelitsya.SessionTracking</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionTracking</servlet-name>
+        <url-pattern>/SessionTracking</url-pattern>
+    </servlet-mapping>
+
 
     <servlet-mapping>
         <servlet-name>ErrorServlets</servlet-name>

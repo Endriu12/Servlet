@@ -84,6 +84,18 @@
         <servlet-class>com.perepelitsya.DateTime</servlet-class>
     </servlet>
 
+
+    <servlet>
+        <servlet-name>AutoRefresh</servlet-name>
+        <servlet-class>com.perepelitsya.AutoRefresh</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutoRefresh</servlet-name>
+        <url-pattern>/AutoRefresh</url-pattern>
+    </servlet-mapping>
+
+
     <servlet-mapping>
         <servlet-name>DateTime</servlet-name>
         <url-pattern>/DateTime</url-pattern>
